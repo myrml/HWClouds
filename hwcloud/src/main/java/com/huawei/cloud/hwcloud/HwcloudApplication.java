@@ -3,6 +3,19 @@ package com.huawei.cloud.hwcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.apache.http.HttpResponse;
+
+import com.cloud.sdk.http.HttpMethodName;
+
 @SpringBootApplication
 public class HwcloudApplication {
 
