@@ -13,7 +13,7 @@ import com.cloud.sdk.http.HttpMethodName;
 public class Demo {
 
     // replace real region
-    private static final String region = "regionName";
+    private static final String region = "cn-north-1";
 
     // replace real service name
     private static final String serviceName = "serviceName";
@@ -27,7 +27,7 @@ public class Demo {
 
         // get method
         // replace real url
-        String url = "urlString";
+        String url = "https://ims.cn-north-1.myhwclouds.com/v2/cloudimages";
         get(ak, sk, url);
 
         // post method
